@@ -34,6 +34,7 @@ body {
 .clock_container {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 #todo-form {
@@ -49,7 +50,7 @@ body {
 }
 
 #quotes {
-  margin-top: 15px;
+  margin-top: 80px;
   opacity: 70%;
 }
 #weather {
@@ -59,4 +60,21 @@ body {
 
 li {
   margin: 15px 0px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: white;
+  margin-top: 60px;
+}
+
+#greeting {
+  margin-top: 50px;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 80%;
 }
